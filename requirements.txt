@@ -1,0 +1,8 @@
+streamlit
+pandas
+solana
+solders
+sqlalchemy
+psycopg2-binary
+plotly
+requests
