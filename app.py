@@ -1,4 +1,17 @@
 import streamlit as st
+try:
+    import time
+    import os
+    from utils.solana_client import SolanaClient
+    from utils.data_processor import DataProcessor
+    from utils.database import is_data_fresh
+    from components.overview import render_overview
+    from components.validator_metrics import render_validator_metrics
+    from components.stake_distribution import render_stake_distribution
+    from components.network_stats import render_network_stats
+except Exception as e:
+    st.error(f"🚨 Failed to import modules: {e}")
+    raise
 import time
 import os
 from utils.solana_client import SolanaClient
