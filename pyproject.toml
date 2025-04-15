@@ -1,5 +1,5 @@
 [project]
-name = "solana-stake-pulse"
+name = "solanastakepulse"
 version = "0.1.0"
 description = "Solana Staking Dashboard using Streamlit"
 dependencies = []
